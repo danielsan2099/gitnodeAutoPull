@@ -1,0 +1,18 @@
+{
+  "name": "gitautopull",
+  "version": "0.0.1",
+  "description": "Verifica si existes actualizaciones de un repositorio cada determinado tienpo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Santarriaga",
+  "license": "ISC",
+  "devDependencies": {
+    "node-schedule": "^0.2.9"
+  },
+  "dependencies": {
+    "node-schedule": "^0.2.9",
+    "simple-git": "^1.10.0"
+  }
+}
